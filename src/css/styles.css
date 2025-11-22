@@ -16,3 +16,115 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.box {
+  margin-top: 30px;
+}
+
+input {
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/* --------Snackbar------- */
+.form {
+  max-width: 360px;
+  margin: 0 auto;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  border: 1px solid #808080;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+legend {
+  padding: 0 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  background-color: #e6e6e6;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #dcdcdc;
+}
